@@ -1,0 +1,26 @@
+name: Cache Bun Packages
+description: "Cache Bun Packages compatible with Namespace Lab's runners"
+inputs:
+  namespacelabs:
+    default: "true"
+    description: "Using Namespace Lab's runners"
+branding:
+  color: blue
+  icon: archive
+runs:
+  using: "composite"
+  steps:
+    # NAMESPACE LAB VERSION
+    - uses: namespacelabs/nscloud-cache-action@v1
+      with:
+        path: ~/.bun/install/cache
+      if: inputs.namespacelabs == 'true'
+
+    # NATIVE VERSION
+    - uses: actions/cache@v3
+      with:
+        path: ~/.bun/install/cache
+        key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lockb') }}
+        restore-keys: |
+          ${{ runner.os }}-bun-
+      if: inputs.namespacelabs == 'false'
