@@ -1,6 +1,6 @@
-# Cache Bun Packages
+# Cache Cargo Packages
 
-Cache Bun Packages under AtomiCloud
+Cache Cargo Packages under AtomiCloud
 
 # Get Started
 
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # change this
-      - uses: AtomiCloud/actions.cache-bun @v1.0.0
+      - uses: AtomiCloud/actions.cache-cargo@v1
 ```
 
 <!-- prettier-ignore-start -->
