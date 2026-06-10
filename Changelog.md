@@ -1,3 +1,11 @@
+## [2.0.0](https://github.com/AtomiCloud/actions.cache-bun/compare/v1.1.0...v2.0.0) (2026-06-10)
+
+
+### ✨ Features ✨
+
+* **breaking:** release new major for upgraded sub-actions ([3d40cd5](https://github.com/AtomiCloud/actions.cache-bun/commit/3d40cd553d3b6687a764c2371cffe76dffe23a8d))
+* upgrade sub-actions to latest versions ([985e7f7](https://github.com/AtomiCloud/actions.cache-bun/commit/985e7f71b767ac58a43eedf37d9af232c7681934))
+
 ## [1.1.0](https://github.com/AtomiCloud/actions.cache-bun/compare/v1.0.1...v1.1.0) (2025-01-27)
 
 
