@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/AtomiCloud/actions.cache-bun/compare/v2.0.0...v2.0.1) (2026-07-07)
+
+
+### 🐛 Bug Fixes 🐛
+
+* verify release automation creates floating major tag correctly ([#2](https://github.com/AtomiCloud/actions.cache-bun/issues/2)) ([a45164d](https://github.com/AtomiCloud/actions.cache-bun/commit/a45164d2d25351807591fc081b1bba02c0ed083a))
+
 ## [2.0.0](https://github.com/AtomiCloud/actions.cache-bun/compare/v1.1.0...v2.0.0) (2026-06-10)
 
 
