@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/AtomiCloud/actions.cache-bun/compare/v2.0.1...v2.0.2) (2026-07-11)
+
+
+### 🐛 Bug Fixes 🐛
+
+* bump setup-nix to v3 ([ad7d37c](https://github.com/AtomiCloud/actions.cache-bun/commit/ad7d37cbad49a98376e8e7a241612e06096b0beb))
+
 ## [2.0.1](https://github.com/AtomiCloud/actions.cache-bun/compare/v2.0.0...v2.0.1) (2026-07-07)
 
 
