@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/AtomiCloud/actions.cache-bun/compare/v2.0.2...v2.0.3) (2026-11-13)
+
+
+### 🐛 Bug Fixes 🐛
+
+* hash bun.lock (not only bun.lockb) in the non-Namespace cache key ([3364b19](https://github.com/AtomiCloud/actions.cache-bun/commit/3364b19ed64e2bf61a4a785441940c2c0528970c))
+
 ## [2.0.2](https://github.com/AtomiCloud/actions.cache-bun/compare/v2.0.1...v2.0.2) (2026-07-11)
 
 
